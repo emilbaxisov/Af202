@@ -1,0 +1,41 @@
+.header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    nav{
+        ul{
+            display: flex;
+            
+
+            li{
+                list-style: none; 
+                margin-left: 20px; 
+                
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .headericon{
+        width: 280px;
+        height: 90px;
+        background-color: #FFB606;
+        display: flex;
+        align-items: center;
+       
+        
+        
+        .iconPhone{
+            margin-left: 20px;
+            margin-right: 20px;
+            font-size: 30px;
+        }
+    }
+    .h1tag{
+        margin-left: 50px;
+    }
+}
